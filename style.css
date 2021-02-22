@@ -1,0 +1,241 @@
+body {
+  background-color: hsl(270, 20%, 96%);
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.background1 {
+  background-color: hsl(276, 55%, 52%);
+  height: 700px;
+  width: 30%;
+  border-radius: 0 0 1200px 600px;
+}
+
+.background2 {
+  background-color: hsla(206, 6%, 79%, 0.3);
+  height: 700px;
+  width: 30%;
+  border-radius: 1200px 600px 0 0;
+  margin-top: 3.3%;
+}
+
+.mobileshape {
+  height: 500px;
+  width: 250px;
+  background-color: hsl(270, 20%, 96%);
+  border-radius: 25px;
+  border: 10px solid hsl(0, 0%, 100%);
+  margin-left: -5%;
+  margin-top: 10%;
+}
+
+.mobilehead {
+  height: 30px;
+  background-color: hsl(0, 0%, 100%);
+  width: 125px;
+  margin: auto;
+  margin-top: -85px;
+  border-radius: 12.5px;
+}
+
+.profilepicsec {
+  height: 75px;
+  width: 250px;
+  background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  display: flex;
+  border-radius: 20px 20px 0 0;
+}
+
+.profilepicsec>img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 25px 5px 25px 5px;
+}
+
+.profileX {
+  float: right;
+  margin: 10px auto 0 10px;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.profileX>span {
+  color: hsl(276, 100%, 81%);
+  font-size: 10px;
+}
+
+.leftpointingangle {
+  font-size: 25px;
+  margin: auto 5px auto 23px;
+  color: #fff;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.dotsegment {
+  color: #fff;
+  margin: auto 15px 25px auto;
+}
+
+.frommsg {
+  width: 60%;
+  height: auto;
+  background-color: hsla(206, 6%, 79%, 0.3);
+  text-align: left;
+  font-size: 10px;
+  padding: 5px;
+  color: hsl(276, 55%, 52%);
+  margin: 10px auto auto 10px;
+  border-radius: 10px 10px 10px 0;
+}
+
+.chatsection {
+  margin-top: 65px;
+}
+
+.dogimages {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+.imagesection {
+  text-align: right;
+  margin: 10px;
+}
+
+.tomsg {
+  background-color: #fff;
+  width: 60%;
+  height: auto;
+  color: hsl(271, 15%, 43%);
+  margin: 10px 10px auto auto;
+  border-radius: 10px 10px 0 10px;
+  text-align: left;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.walksection {
+  width: 70%;
+  height: auto;
+  background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  margin: 10px auto auto 10px;
+  border-radius: 10px 10px 10px 0;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.thirtyminwlk {
+  font-size: 18px;
+  margin-left: 30%;
+}
+
+.addmargin {
+  font-size: 18px;
+  margin-left: 40%;
+}
+
+.typesec {
+  width: inherit;
+  background-color: #fff;
+  height: auto;
+  padding: 5px;
+  color: hsl(206, 6%, 79%);
+  font-size: 10px;
+  border-radius: 31px;
+  margin: 10px;
+}
+
+.rightanglearrow {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: hsl(271, 36%, 24%);
+  color: #fff;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+}
+
+.typesec {
+  padding-left: 20px;
+}
+
+.radiobutton {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid hsl(289, 100%, 72%);
+  display: inline-flex;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.rightsection {
+  float: right;
+  width: 30%;
+  height: auto;
+  margin: auto -5% auto 10%;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.rightsection>h1 {
+  color: hsl(271, 36%, 24%);
+}
+
+.rightsection>p {
+  color: hsl(270, 7%, 64%);
+}
+
+@media only screen and (max-width:575px) {
+  .main {
+    width: 100%;
+    display: block;
+  }
+
+  .background1 {
+    width: 50%;
+    height: 500px;
+  }
+
+  .mobileshape {
+    margin-top: -400px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .rightsection {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin: 30% auto auto auto;
+  }
+
+  .rightsection>p {
+    padding: 5% 20% 5% 20%;
+  }
+
+  .background2 {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -400px;
+    position: relative;
+    z-index: 0;
+    height: 450px;
+  }
+}
