@@ -24,7 +24,7 @@ body {
 }
 
 .mobileshape {
-  height: auto;
+  height: 500px;
   width: 250px;
   background-color: hsl(270, 20%, 96%);
   border-radius: 25px;
@@ -213,6 +213,7 @@ h4 {
   }
 
   .mobileshape {
+    height:auto;
     margin-top: -400px;
     margin-left: 100px;
     position: absolute;
